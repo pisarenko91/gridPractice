@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1600px) {
+  body{
+    background-color: black;
+  }
+}
+
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+
+.col-xl-1{
+  width: 40%;
+}
+
+.col-xl-2{
+  width: 30%;
+}
+
+.col-xl-3{
+  width: 30%;
+}
+
+.col-xl-4{
+  width: 100%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.belo{
+  background-color: white;
+}
+
+.zuto{
+  background-color: yellow;
+}
+
+.crveno{
+  background-color: red;
+}
+
+.zeleno{
+  background-color: green;
+}
+
+.orange{
+  background-color: orange;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container-low{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.col-l-1{
+  width: 20%;
+}
+
+.col-l-2{
+  width: 40%;
+}
+
+.col-l-3{
+  width: 60%;
+}
+
+.col-l-4{
+  width: 80%;
+}
+
+.col-l-5{
+  width: 100%;
+}
+.h3{
+  color: white;
+  text-align: center;
+}
